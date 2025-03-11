@@ -1,3 +1,5 @@
-const j = "test"
+require('dotenv').config();
 
-console.log(j)
+const API_KEY = process.env.API_KEY;
+
+console.log(API_KEY)
